@@ -18,7 +18,7 @@ Selection will be on the basis of:
 
 You have to design a feedback page for your organisation. There are customer reviews on product. You have to present some of the feedbacks in a well formatted and attractive manner as provided in below picture.
 
-![image](https://github.com/AnubhavGoel2808/CssBattlePrelims/blob/master/Problem%201/design/desktop-design.jpg)
+![image](https://github.com/AnubhavGoel2808/CssBattlePrelims/blob/master/Problem%201/Design-expected/desktop-design.jpg)
 
 ### Problem Statement 2
 
@@ -27,8 +27,9 @@ You have to design a product card component as shown in the picture below.
 - It should display back view of T-Shirt on mouse over.
 - Try to make attractive and you are free to add new features.
 - Feel free to change color combinations.
+- Should be Responsive on mobile devices
 
-<img src="https://github.com/AnubhavGoel2808/CssBattlePrelims/blob/master/Problem%202/product-card(2).JPG" alt="drawing" width="350px"/>
+<img src="https://github.com/AnubhavGoel2808/CssBattlePrelims/blob/master/Problem%202/Design-expected/productCard.JPG" alt="drawing" width="350px"/>
 
 ### Duration of Event
 
@@ -39,4 +40,8 @@ You have to design a product card component as shown in the picture below.
     Duration: 2 Hours
     Submission Form Closing Time: 04:30 PM (Sharp)
 
+### Problem Setters
+
+Anubhav Goel (9911955393)
+Prakhar Gupta (9161478825)
 
