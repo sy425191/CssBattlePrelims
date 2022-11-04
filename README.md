@@ -43,5 +43,6 @@ You have to design a product card component as shown in the picture below.
 ### Problem Setters
 
 Anubhav Goel (9911955393)
+
 Prakhar Gupta (9161478825)
 
