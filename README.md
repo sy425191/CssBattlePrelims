@@ -10,7 +10,6 @@ The event will majorly focus on the designing minds of the candidate. This will 
 In this round, a sample web page template with HTML tags will be provided to candidates and candidates have to add CSS to make design look alike to sample Figma design.
 
 Selection will be on the basis of:
-- Design look alike
 - Clarity of design
 - Clean code
 - Innovation
@@ -26,7 +25,6 @@ You have to design a feedback page for your organisation. There are customer rev
 You have to design a product card component as shown in the picture below. We need few feature in this card as follows:
 
 - Should display back view of T-Shirt on mouse over.
-- Should be responsive for any device.
 - Try to make attractive and you are free to add new features.
 - Feel free to change color combinations.
 
