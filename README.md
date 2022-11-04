@@ -7,7 +7,7 @@ The event will majorly focus on the designing minds of the candidate. This will 
 
 ### Round 1:
 
-In this round, a sample web page template with HTML tags will be provided to candidates and candidates have to add CSS to make design look alike to sample Figma design.
+In this round, a sample web page template with few HTML tags will be provided to candidates and candidates have to add HTML and CSS to make design look alike to sample design provided. Remember, you only have 2 hours to complete both the task.
 
 Selection will be on the basis of:
 - Clarity of design
@@ -22,21 +22,21 @@ You have to design a feedback page for your organisation. There are customer rev
 
 ### Problem Statement 2
 
-You have to design a product card component as shown in the picture below. We need few feature in this card as follows:
+You have to design a product card component as shown in the picture below. 
 
-- Should display back view of T-Shirt on mouse over.
+- It should display back view of T-Shirt on mouse over.
 - Try to make attractive and you are free to add new features.
 - Feel free to change color combinations.
 
-![image](https://github.com/AnubhavGoel2808/CssBattlePrelims/blob/master/Problem%202/product-card(2).JPG)
+<img src="https://github.com/AnubhavGoel2808/CssBattlePrelims/blob/master/Problem%202/product-card(2).JPG" alt="drawing" width="350px"/>
 
 ### Duration of Event
 
  We are very strict for timing. Submit your response before time.
 
-    Start Time: 10:00 PM 
-    End Time: 12:00 AM
+    Start Time: 02:00 PM 
+    End Time: 04:00 PM
     Duration: 2 Hours
-    Submission Form Closing Time: 12:30 AM (Sharp)
+    Submission Form Closing Time: 04:30 PM (Sharp)
 
 
