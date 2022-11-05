@@ -1,0 +1,191 @@
+body{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.product-card{
+    width: 100%;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 255, 0.5);
+}
+
+.product-card #discount{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgba(255, 157, 189, 0.938);
+    color: white;
+    padding: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 45%;
+    box-shadow: 0 0 10px 0 rgba(255, 173, 200, 0.938);
+}
+
+.product-card .img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+.product-card .img img{
+    width: 350px!important;
+    height: max-content;
+}
+
+.product-card .product-details{
+    padding: 20px;
+}
+
+.product-card .product-details .prod-name-price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-card .product-details .prod-name-price .prod-name{
+    display: flex;
+    flex-direction: column;
+}
+
+.product-card .product-details .prod-name-price .prod-name .h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.product-card .product-details .prod-name-price .prod-name .p{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.product-card .product-details .prod-name-price .prod-price{
+    display: flex;
+    flex-direction: column;
+}
+
+/* 1st span big active price */
+/* 2nd span cutted small old price */
+
+.product-card .product-details .prod-name-price .prod-price span:nth-child(1){
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(119, 0, 167, 0.986);
+    
+}
+
+.product-card .product-details .prod-name-price .prod-price span:nth-child(2){
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+}
+
+.product-card .product-details .size{
+    padding: 10px 40px;
+}
+
+.product-card .product-details .size .sizes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* hide input over label */
+.product-card .product-details .size .sizes input{
+    display: none;
+}
+
+.product-card .product-details .size .sizes label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.product-card .product-details .size .sizes label:hover{
+    background-color: rgb(96 52 232);
+    color: white;
+}
+
+.product-card .product-details .size .sizes input:checked + label{
+    background-color: rgb(96 52 232);
+    color: white;
+}
+
+.product-card .product-details .tag-quantity{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+/* .tag is a button  */
+.product-card .product-details .tag-quantity .tag{
+    background-color: rgb(224 161 164);
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.product-card .product-details .tag-quantity .quantity{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-card .product-details .tag-quantity .quantity button{
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    color: green;
+    box-shadow: 0 0 10px 0 rgba(0, 255, 0, 0.5);
+}
+
+.product-card .product-details .tag-quantity .quantity span{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0px 10px;
+}
+
+.product-card .product-details .btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.product-card .product-details .btn button{
+    margin: 0px 10px;
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+}
+
+.product-card .product-details .btn button:nth-child(1){
+    background-color: rgb(234 237 30);
+}
+
+.product-card .product-details .btn button:nth-child(2){
+    background-color: rgb(252 167 20);
+}
